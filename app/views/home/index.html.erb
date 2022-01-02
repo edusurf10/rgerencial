@@ -1,0 +1,20 @@
+<h2>Contas já cadastradas</h2></ br>
+<div>
+  <table>
+      <tr>
+          <th>Conta</th>
+          <th>Nome</th>
+          <th>E-mail</th>
+          <th>Menssagem</th>
+      </tr>
+      <% for user in @users %>
+        <tr>
+          <td><%= user.acc %></td>
+          <td><%= user.name %></td>
+          <td><%= user.email %></td>
+          <td><%= user.msg %></td>
+        </tr>
+      <% end %>
+  </table>
+</div>
+<%= link_to "Abrir nova conta", new_user_registration_path %>
