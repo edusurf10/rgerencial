@@ -17,10 +17,10 @@ git clone https://gitlab.com/tutoriais.gamehelp/rgerencial.git
 cd rgerencial
 ```
 
-* Criar o banco de dados (_configurar o banco de dados no projeto antes_)
+* Instalar as gems utilizadas
 
 ```
-rails db:create
+bundle install
 ```
 
 * Rodar a migração
@@ -53,5 +53,5 @@ localhost:3000
 email: admin@admin.com senha: 123456
 ```
 
-* Agora pode estar criando um usuario para logar no rbank
+* Agora pode estar criando um usuario para logar no _rbank_
 
