@@ -1,24 +1,57 @@
-# README
+# Aplicação para gerenciamento de usuarios
+> Antes de começar, certifique-se de ter deixado a aplicação _rbank_ já funcionando.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
 
-* Ruby version
+Rodando aplicação:
 
-* System dependencies
+* Clonar o repositorio 
 
-* Configuration
+```
+git clone https://gitlab.com/tutoriais.gamehelp/rgerencial.git
+```
 
-* Database creation
+* Acessar a pasta do repositorio
 
-* Database initialization
+```
+cd rgerencial
+```
 
-* How to run the test suite
+* Instalar as gems utilizadas
 
-* Services (job queues, cache servers, search engines, etc.)
+```
+bundle install
+```
 
-* Deployment instructions
+* Rodar a migração
 
-* ...
+```
+rails db:migrate
+```
+
+* Rodar a seed
+
+```
+rails db:seed
+```
+
+* Iniciar o servidor
+
+```
+rails s
+```
+
+* Acessar a aplicação no endereço padrão
+
+```
+localhost:3000
+```
+
+* Logar com o usuario padrão
+
+```
+email: admin@admin.com senha: 123456
+```
+
+* Agora pode estar criando um usuario para logar no _rbank_
+
